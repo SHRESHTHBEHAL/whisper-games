@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whisper Games</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Whisper Games</string>
+    <string name="home_subtitle">Sound-Controlled Micro-Games</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_leaderboard">Leaderboard</string>
+    <string name="btn_settings">Settings</string>
+
+    <!-- Games -->
+    <string name="game_whisper_line">Whisper Line</string>
+    <string name="game_dead_silence">Dead Silence</string>
+    <string name="game_blow_balloon">Blow Balloon</string>
+    <string name="game_clap_catch">Clap Catch</string>
+
+    <!-- Instructions -->
+    <string name="instructions_title">How to Play</string>
+    <string name="instructions_whisper_line">Keep your voice below the threshold line for as long as possible. Stay quiet to survive!</string>
+    <string name="instructions_dead_silence">Maintain absolute silence! Any sound will end your game. How long can you stay silent?</string>
+    <string name="instructions_blow_balloon">Blow into your microphone to inflate the balloon. Fill it up before time runs out!</string>
+    <string name="instructions_clap_catch">Clap to catch falling targets! Time your claps perfectly to maximize your score.</string>
+    <string name="btn_start_game">Start Game</string>
+    <string name="btn_back">Back</string>
+
+    <!-- Game Over -->
+    <string name="game_over_title">Game Over</string>
+    <string name="score_label">Score:</string>
+    <string name="high_score_label">High Score:</string>
+    <string name="btn_play_again">Play Again</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_watch_ad">Watch Ad (+100)</string>
+
+    <!-- Leaderboard -->
+    <string name="leaderboard_title">Leaderboard</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_sound">Sound</string>
+    <string name="settings_music">Music</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_microphone_sensitivity">Microphone Sensitivity</string>
+
+    <!-- Permissions -->
+    <string name="permission_microphone_required">Microphone permission is required to play</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="btn_grant_permission">Grant Permission</string>
+
+    <!-- Common -->
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+</resources>

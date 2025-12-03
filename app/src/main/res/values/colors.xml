@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Cute Pastel Brand Colors -->
+    <color name="primary">#8B5CF6</color>
+    <color name="primary_dark">#7C3AED</color>
+    <color name="secondary">#EC4899</color>
+    <color name="accent_light">#A78BFA</color>
+    <color name="background_main">#FFF7ED</color>
+    <color name="background_card">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_hint">#9CA3AF</color>
+
+    <!-- Cute Game Themes with Pastel Colors -->
+    <color name="game_whisper_primary">#60A5FA</color>
+    <color name="game_whisper_bg">#DBEAFE</color>
+    <color name="game_whisper_gradient_start">#BFDBFE</color>
+    <color name="game_whisper_gradient_end">#DBEAFE</color>
+
+    <color name="game_silence_primary">#A78BFA</color>
+    <color name="game_silence_bg">#2D1B69</color>
+    <color name="game_silence_gradient_start">#4C1D95</color>
+    <color name="game_silence_gradient_end">#2D1B69</color>
+
+    <color name="game_balloon_primary">#F472B6</color>
+    <color name="game_balloon_bg">#FCE7F3</color>
+    <color name="game_balloon_gradient_start">#FBCFE8</color>
+    <color name="game_balloon_gradient_end">#FCE7F3</color>
+
+    <color name="game_clap_primary">#34D399</color>
+    <color name="game_clap_bg">#D1FAE5</color>
+    <color name="game_clap_gradient_start">#A7F3D0</color>
+    <color name="game_clap_gradient_end">#D1FAE5</color>
+
+    <!-- UI Feedback - Cute Colors -->
+    <color name="game_success">#10B981</color>
+    <color name="game_warning">#FBBF24</color>
+    <color name="game_danger">#EF4444</color>
+
+    <!-- Additional Cute Colors -->
+    <color name="cute_purple">#C084FC</color>
+    <color name="cute_pink">#F9A8D4</color>
+    <color name="cute_blue">#93C5FD</color>
+    <color name="cute_green">#86EFAC</color>
+    <color name="cute_yellow">#FDE047</color>
+    <color name="cute_orange">#FDBA74</color>
+
+    <!-- Shadow and Overlay -->
+    <color name="shadow_light">#1A000000</color>
+    <color name="overlay_dark">#80000000</color>
+</resources>

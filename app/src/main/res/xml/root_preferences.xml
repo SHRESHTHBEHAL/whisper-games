@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="App Settings">
+
+        <SwitchPreferenceCompat
+            app:key="sound_effects"
+            app:title="Sound Effects"
+            app:summary="Enable or disable game sound effects"
+            app:defaultValue="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="vibration"
+            app:title="Vibration"
+            app:summary="Enable or disable haptic feedback"
+            app:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="About">
+
+        <Preference
+            app:key="rate_app"
+            app:title="Rate App"
+            app:summary="Rate Whisper Games on the Play Store"/>
+
+        <Preference
+            app:key="share_app"
+            app:title="Share App"
+            app:summary="Share Whisper Games with friends"/>
+
+        <Preference
+            app:key="contact_us"
+            app:title="Contact Us"
+            app:summary="Send feedback to the developers"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

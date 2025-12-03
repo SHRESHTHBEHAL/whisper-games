@@ -1,0 +1,114 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with cute colors -->
+    <style name="Theme.WhisperGames" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/background_main</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/background_main</item>
+        <!-- Shape Appearance -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.WhisperGames.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.WhisperGames.MediumComponent</item>
+    </style>
+
+    <!-- Shape Appearances for Rounded Corners -->
+    <style name="ShapeAppearance.WhisperGames.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.WhisperGames.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <!-- Typography Styles - Cute and Friendly -->
+    <style name="TextAppearance.WhisperGames.Header" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="TextAppearance.WhisperGames.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="TextAppearance.WhisperGames.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.WhisperGames.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <style name="TextAppearance.WhisperGames.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/text_hint</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Button Styles - Cute and Rounded -->
+    <style name="Widget.WhisperGames.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:paddingHorizontal">32dp</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="elevation">4dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="Widget.WhisperGames.Button.Primary" parent="Widget.WhisperGames.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="rippleColor">@color/cute_purple</item>
+    </style>
+
+    <style name="Widget.WhisperGames.Button.Secondary" parent="Widget.WhisperGames.Button">
+        <item name="backgroundTint">@color/background_card</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="rippleColor">@color/accent_light</item>
+    </style>
+
+    <style name="Widget.WhisperGames.Button.Success" parent="Widget.WhisperGames.Button">
+        <item name="backgroundTint">@color/game_success</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Widget.WhisperGames.Button.Icon" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="cornerRadius">20dp</item>
+        <item name="android:minWidth">56dp</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+
+    <!-- Card Styles - Cute and Elevated -->
+    <style name="Widget.WhisperGames.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardBackgroundColor">@color/background_card</item>
+        <item name="contentPadding">20dp</item>
+    </style>
+
+    <style name="Widget.WhisperGames.Card.Game">
+        <item name="cardCornerRadius">28dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="contentPadding">24dp</item>
+    </style>
+</resources>
